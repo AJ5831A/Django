@@ -1,0 +1,7 @@
+<h1>Input your text here!</h1>
+<br>
+<form method="post" action="counter">
+    {% csrf_token %}
+    <textarea name="text" rows="15" cols="80"></textarea><br>
+    <input type="submit"/>
+</form>
